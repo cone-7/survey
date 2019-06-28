@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Form from './components/Form';
+import jsonForm from './formsConfig/form';
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Form config={jsonForm}></Form>
     </div>
   );
 }

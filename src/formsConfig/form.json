@@ -1,0 +1,123 @@
+{
+    "fields": [
+        {
+            "fieldKey": "client.email",
+            "label": "Email",
+            "fieldOptions": [],
+            "section": "Section1",
+            "isRequired": true,
+            "dataType": "text",
+            "value": ""
+        },
+        {
+            "fieldKey": "cliente.area",
+            "label": "Area",
+            "fieldOptions": [],
+            "section": "Section1",
+            "isRequired": false,
+            "dataType": "textarea",
+            "value": ""
+        },
+        {
+            "fieldKey": "gender",
+            "label": "Sexo",
+            "fieldOptions": [
+                "Hombre",
+                "Mujer"
+            ],
+            "section": "Section1",
+            "isRequired": false,
+            "dataType": "select",
+            "value": ""
+        },
+        {
+            "fieldKey": "ejemploradio",
+            "label": "Eres humano",
+            "fieldOptions": [
+                "Si",
+                "No"
+            ],
+            "section": "Section1",
+            "isRequired": false,
+            "dataType": "radio",
+            "idx": 0
+        },
+        {
+            "fieldKey": "paises",
+            "label": "Países",
+            "fieldOptions": [
+                "Canada",
+                " Estados Unidos",
+                "Reino Unido",
+                "Irlanda",
+                "Francia",
+                "Suiza",
+                "Alemania",
+                "Australia",
+                "Nueva Zelanda"
+            ],
+            "section": "Section1",
+            "isRequired": false,
+            "dataType": "checkbox"
+        },
+        {
+            "fieldKey": "client.firstName",
+            "label": "Nombre",
+            "fieldOptions": [],
+            "section": "Section2",
+            "isRequired": false,
+            "dataType": "text",
+            "value": ""
+        },
+        {
+            "fieldKey": "client.lastName[0]",
+            "label": "Apellido Paterno",
+            "fieldOptions": [],
+            "section": "Section2",
+            "isRequired": true,
+            "dataType": "text",
+            "value": ""
+        },
+        {
+            "fieldKey": "client.lastName[1]",
+            "label": "Apellido Materno",
+            "fieldOptions": [],
+            "section": "Section3",
+            "isRequired": true,
+            "dataType": "text",
+            "value": ""
+        },
+        {
+            "fieldKey": "birthday",
+            "label": "Fecha de Nacimiento",
+            "fieldOptions": [],
+            "section": "Section3",
+            "isRequired": true,
+            "dataType": "date",
+            "dataFormat": "url",
+            "allowMultipleValues": false,
+            "idx": 0,
+            "value": ""
+        }
+    ],
+    "sections": [
+        {
+            "sectionKey": "Section1",
+            "idx": 0,
+            "display": "inline",
+            "isValid": false
+        },
+        {
+            "sectionKey": "Section2",
+            "idx": 1,
+            "display": "d-none",
+            "isValid": false
+        },
+        {
+            "sectionKey": "Section3",
+            "idx": 2,
+            "display": "d-none",
+            "isValid": false
+        }
+    ]
+}
